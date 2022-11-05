@@ -1,0 +1,24 @@
+{
+  "name": "AtlasAdminNode",
+  "version": "1.0.0",
+  "description": "HzauAtlasAdmin's NodeJS project，NodeJS version: v8.11.3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa-body": "^5.0.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}
